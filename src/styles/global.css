@@ -1,7 +1,8 @@
 :root {
-    --font-family-sans: Inter;
-    --font-family-serif: PT Serif;
-    --font-family-mono: IMB Plex Mono;
+    --font-family-sans: 'DM Sans';
+    background-color: rgb(23 23 23 / 1);
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
 }
 @tailwind base;
 @tailwind components;

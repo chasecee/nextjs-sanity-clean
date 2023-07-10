@@ -34,3 +34,13 @@ export interface Post {
   mainImage?: ImageAsset
   body: PortableTextBlock[]
 }
+export interface Page {
+  _type: 'post'
+  _id: string
+  _createdAt: string
+  title?: string
+  slug: Slug
+  excerpt?: string
+  mainImage?: ImageAsset
+  body: PortableTextBlock[]
+}

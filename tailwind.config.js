@@ -10,6 +10,9 @@ module.exports = {
     container: {
       center: true,
     },
+    fontFamily: {
+      'sans': ['DM Sans','ui-sans-serif', 'system-ui' ]
+    },
     extend: {},
   },
   plugins: [],
